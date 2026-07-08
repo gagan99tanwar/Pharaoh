@@ -60,7 +60,7 @@ ALLOWED_GROUPS = {
     if g.strip()
 }
 
-COOLDOWN_SECONDS = 3
+COOLDOWN_SECONDS = 0
 DB_PATH = os.getenv("BOT_DB_PATH", "bot_memory.db")
 
 GREETINGS = {
